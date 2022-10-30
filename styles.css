@@ -1,0 +1,21 @@
+:root{
+    --primary-color: rgb(125, 46, 46);
+
+}
+
+.new_color h1{
+    color: var(--primary-color);
+}
+
+.nav-link {
+    color: gray;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: blue;
+    background-color: white;
+}
+
+.imagen{
+    height: 400px;
+    width: 400px;
+}
